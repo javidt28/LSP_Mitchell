@@ -1,7 +1,7 @@
 package org.howard.edu.lsp.assignment2;
 
-import java.util.Scanner;
 import java.util.Arrays;
+import java.util.Scanner;
 
 /**
  * This class calculate the sum and product of tokens detected from the user input.
