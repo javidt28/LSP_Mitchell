@@ -319,6 +319,7 @@ public class IntegerSetTest {
 		
 		assertFalse(testSet1.equals(testSet2));
 	};
+
 	
 	@Test
 	@DisplayName("Test Case for Remove duplicates")
@@ -518,5 +519,26 @@ public class IntegerSetTest {
 		
 		assertTrue(str1.equals(str2));
 	}
+	
+	@Test
+	@DisplayName("Test Case for Remove Method for element not present in set")
+	public void testRemove100() {
+		
+		testSet1.add(0);
+		testSet1.add(2);
+		testSet1.add(4);
+		testSet1.add(12);
+		
+		testSet2.add(0);
+		testSet2.add(2);
+		testSet2.add(4);
+		testSet2.add(10);
+		testSet2.add(12);
+		testSet2.remove(13);
+
+		assertFalse(testSet1.length() == testSet2.length());
+	}
+	
+	
 }
 
