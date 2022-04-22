@@ -5,8 +5,8 @@ import java.util.Map;
 
 /**
  * 
- * The class implements a number of methods 
- * to solve the given problem.
+ * The class implements a method
+ * to find if there are common key value pairs in two hashmaps.
  * 
  * @author Javid Mitchell
  *

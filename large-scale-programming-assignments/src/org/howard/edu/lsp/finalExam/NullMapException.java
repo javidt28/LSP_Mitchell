@@ -2,7 +2,7 @@ package org.howard.edu.lsp.finalExam;
 
 /**
  * 
- * This class implements the custom IntegerSetException exception
+ * This class implements the custom NullMapException exception
  * 
  * @author Javid Mitchell
  *
