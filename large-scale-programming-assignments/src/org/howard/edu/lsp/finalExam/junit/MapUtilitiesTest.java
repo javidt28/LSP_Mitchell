@@ -52,5 +52,21 @@ class MapUtilitiesTest {
                 }
         }
 
+        @Test
+    	@DisplayName("Testing with two null HashMaps")
+        void testCommonKeyValuePairs3() {
+                HashMap<String, String> map1=null;
+                HashMap<String, String> map2=null;
+    
+                int count=0;
+                try {
+                        count=MapUtilities.commonKeyValuePairs(map1, map2);
+                }
+                catch(Exception e) {
+                        assertEquals("One of both maps are null!", e.getMessage());
+                        assertEquals(0, count);
+                }
+        }
+
 
 }
